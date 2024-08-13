@@ -13,9 +13,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class Rtest {
     @Autowired
-    Entity myentity;
+    Entity ntity;
     @Test
     public void test() {
-        System.out.println(myentity.getName());
+        System.out.println(ntity.getTest());
     }
 }
